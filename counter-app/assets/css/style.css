@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.container{
+	width: 70vw;
+	height: 70vh;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.8);
+	padding: 5em;
+}
+
+.container h1{
+	color: white;
+	text-align: center;
+}
+
+.buttons{
+	width: 50%;
+	margin: 0 auto;
+}
+
+input[type="button"]{
+	margin: 2em;
+	border: none;
+	width:  100%;
+	padding: .8em;
+	border-radius: 10em;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+	outline: none;
+}
+
+input[type="button"]:hover{
+	background-color: black;
+	color: white;
+}
